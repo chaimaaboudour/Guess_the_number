@@ -1,0 +1,74 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Styles pour le titre */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style de formulaire */
+form {
+    width: 800px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;  
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+/* style de user name */
+#username, .form-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styles pour tous  les label */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Styles pour les boutons radio et les label aux dessous */
+.form-check-input,
+.form-check-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+/* Style de bouton */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
